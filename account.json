@@ -1,0 +1,17 @@
+{
+    "name": "test_account",
+    "applications": [
+      {
+        "application": "ontapi",
+        "authentication_methods": [
+          "password"
+        ]
+      },
+      {
+        "application": "http",
+        "authentication_methods": [
+          "password"
+        ]
+      }
+    ]
+  }

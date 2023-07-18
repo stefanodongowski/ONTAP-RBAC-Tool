@@ -1,0 +1,77 @@
+{
+  "role": "harvest2_minpriv",
+  "entries": [
+    {
+      "cmddirname": "DEFAULT",
+      "access": "none"
+    },
+    {
+      "cmddirname": "cluster",
+      "access": "readonly"
+    },
+    {
+      "cmddirname": "lun",
+      "access": "readonly"
+    },
+    {
+      "cmddirname": "snapmirror",
+      "access": "readonly"
+    },
+    {
+      "cmddirname": "statistics",
+      "access": "readonly"
+    },
+    {
+      "cmddirname": "storage aggregate",
+      "access": "readonly"
+    },
+    {
+      "cmddirname": "storage disk",
+      "access": "readonly"
+    },
+    {
+      "cmddirname": "storage shelf",
+      "access": "readonly"
+    },
+    {
+      "cmddirname": "system health status",
+      "access": "readonly"
+    },
+    {
+      "cmddirname": "system health subsystem show",
+      "access": "readonly"
+    },
+    {
+      "cmddirname": "system node",
+      "access": "readonly"
+    },
+    {
+      "cmddirname": "version",
+      "access": "readonly"
+    },
+    {
+      "cmddirname": "volume",
+      "access": "readonly"
+    },
+    {
+      "cmddirname": "network interface",
+      "access": "readonly"
+    },
+    {
+      "cmddirname": "security",
+      "access": "readonly"
+    },
+    {
+      "cmddirname": "storage encryption disk",
+      "access": "readonly"
+    },
+    {
+      "cmddirname": "vserver",
+      "access": "readonly"
+    },
+    {
+      "cmddirname": "qos workload show",
+      "access": "readonly"
+    }
+  ]
+}

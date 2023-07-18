@@ -1,0 +1,433 @@
+{
+    "role": "snapcenter_minpriv", 
+    "entries": [
+      {
+        "cmddirname": "DEFAULT",
+        "access": "none"
+      },
+      {
+        "cmddirname": "metrocluster show",
+        "access": "readonly"
+      },
+      {
+        "cmddirname": "cluster identity modify",
+        "access": "all"
+      },
+      {
+        "cmddirname": "cluster identity show",
+        "access": "all"
+      },
+      {
+        "cmddirname": "cluster modify",
+        "access": "all"
+      },
+      {
+        "cmddirname": "cluster peer show",
+        "access": "all"
+      },
+      {
+        "cmddirname": "cluster show",
+        "access": "all"
+      },
+      {
+        "cmddirname": "event generate-autosupport-log",
+        "access": "all"
+      },
+      {
+        "cmddirname": "job history show",
+        "access": "all"
+      },
+      {
+        "cmddirname": "job stop",
+        "access": "all"
+      },
+      {
+        "cmddirname": "lun",
+        "access": "all"
+      },
+      {
+        "cmddirname": "lun create",
+        "access": "all"
+      },
+      {
+        "cmddirname": "lun delete",
+        "access": "all"
+      },
+      {
+        "cmddirname": "lun igroup add",
+        "access": "all"
+      },
+      {
+        "cmddirname": "lun igroup create",
+        "access": "all"
+      },
+      {
+        "cmddirname": "lun igroup delete",
+        "access": "all"
+      },
+      {
+        "cmddirname": "lun igroup modify",
+        "access": "all"
+      },
+      {
+        "cmddirname": "lun igroup rename",
+        "access": "all"
+      },
+      {
+        "cmddirname": "lun igroup show",
+        "access": "all"
+      },
+      {
+        "cmddirname": "lun mapping add-reporting-nodes",
+        "access": "all"
+      },
+      {
+        "cmddirname": "lun mapping create",
+        "access": "all"
+      },
+      {
+        "cmddirname": "lun mapping delete",
+        "access": "all"
+      },
+      {
+        "cmddirname": "lun mapping remove-reporting-nodes",
+        "access": "all"
+      },
+      {
+        "cmddirname": "lun mapping show",
+        "access": "all"
+      },
+      {
+        "cmddirname": "lun modify",
+        "access": "all"
+      },
+      {
+        "cmddirname": "lun move-in-volume",
+        "access": "all"
+      },
+      {
+        "cmddirname": "lun offline",
+        "access": "all"
+      },
+      {
+        "cmddirname": "lun online",
+        "access": "all"
+      },
+      {
+        "cmddirname": "lun persistent-reservation clear",
+        "access": "all"
+      },
+      {
+        "cmddirname": "lun resize",
+        "access": "all"
+      },
+      {
+        "cmddirname": "lun serial",
+        "access": "all"
+      },
+      {
+        "cmddirname": "lun show",
+        "access": "all"
+      },
+      {
+        "cmddirname": "network interface create",
+        "access": "readonly"
+      },
+      {
+        "cmddirname": "network interface delete",
+        "access": "readonly"
+      },
+      {
+        "cmddirname": "network interface modify",
+        "access": "readonly"
+      },
+      {
+        "cmddirname": "network interface show",
+        "access": "readonly"
+      },
+      {
+        "cmddirname": "security login",
+        "access": "readonly"
+      },
+      {
+        "cmddirname": "snapmirror create",
+        "access": "all"
+      },
+      {
+        "cmddirname": "snapmirror list-destinations",
+        "access": "all"
+      },
+      {
+        "cmddirname": "snapmirror policy add-rule",
+        "access": "all"
+      },
+      {
+        "cmddirname": "snapmirror policy create",
+        "access": "all"
+      },
+      {
+        "cmddirname": "snapmirror policy delete",
+        "access": "all"
+      },
+      {
+        "cmddirname": "snapmirror policy modify",
+        "access": "all"
+      },
+      {
+        "cmddirname": "snapmirror policy modify-rule",
+        "access": "all"
+      },
+      {
+        "cmddirname": "snapmirror policy remove-rule",
+        "access": "all"
+      },
+      {
+        "cmddirname": "snapmirror policy show",
+        "access": "all"
+      },
+      {
+        "cmddirname": "snapmirror restore",
+        "access": "all"
+      },
+      {
+        "cmddirname": "snapmirror show",
+        "access": "all"
+      },
+      {
+        "cmddirname": "snapmirror show-history",
+        "access": "all"
+      },
+      {
+        "cmddirname": "snapmirror update",
+        "access": "all"
+      },
+      {
+        "cmddirname": "snapmirror update-ls-set",
+        "access": "all"
+      },
+      {
+        "cmddirname": "system license add",
+        "access": "all"
+      },
+      {
+        "cmddirname": "system license clean-up",
+        "access": "all"
+      },
+      {
+        "cmddirname": "system license delete",
+        "access": "all"
+      },
+      {
+        "cmddirname": "system license show",
+        "access": "all"
+      },
+      {
+        "cmddirname": "system license status show",
+        "access": "all"
+      },
+      {
+        "cmddirname": "system node modify",
+        "access": "all"
+      },
+      {
+        "cmddirname": "system node show",
+        "access": "all"
+      },
+      {
+        "cmddirname": "system status show",
+        "access": "all"
+      },
+      {
+        "cmddirname": "version",
+        "access": "all"
+      },
+      {
+        "cmddirname": "volume clone create",
+        "access": "all"
+      },
+      {
+        "cmddirname": "volume clone show",
+        "access": "all"
+      },
+      {
+        "cmddirname": "volume clone split start",
+        "access": "all"
+      },
+      {
+        "cmddirname": "volume clone split stop",
+        "access": "all"
+      },
+      {
+        "cmddirname": "volume create",
+        "access": "all"
+      },
+      {
+        "cmddirname": "volume destroy",
+        "access": "all"
+      },
+      {
+        "cmddirname": "volume file clone create",
+        "access": "all"
+      },
+      {
+        "cmddirname": "volume file show-disk-usage",
+        "access": "all"
+      },
+      {
+        "cmddirname": "volume modify",
+        "access": "all"
+      },
+      {
+        "cmddirname": "volume offline",
+        "access": "all"
+      },
+      {
+        "cmddirname": "volume online",
+        "access": "all"
+      },
+      {
+        "cmddirname": "volume qtree create",
+        "access": "all"
+      },
+      {
+        "cmddirname": "volume qtree delete",
+        "access": "all"
+      },
+      {
+        "cmddirname": "volume qtree modify",
+        "access": "all"
+      },
+      {
+        "cmddirname": "volume qtree show",
+        "access": "all"
+      },
+      {
+        "cmddirname": "volume restrict",
+        "access": "all"
+      },
+      {
+        "cmddirname": "volume show",
+        "access": "all"
+      },
+      {
+        "cmddirname": "volume snapshot create",
+        "access": "all"
+      },
+      {
+        "cmddirname": "volume snapshot delete",
+        "access": "all"
+      },
+      {
+        "cmddirname": "volume snapshot modify",
+        "access": "all"
+      },
+      {
+        "cmddirname": "volume snapshot promote",
+        "access": "all"
+      },
+      {
+        "cmddirname": "volume snapshot rename",
+        "access": "all"
+      },
+      {
+        "cmddirname": "volume snapshot restore",
+        "access": "all"
+      },
+      {
+        "cmddirname": "volume snapshot restore-file",
+        "access": "all"
+      },
+      {
+        "cmddirname": "volume snapshot show",
+        "access": "all"
+      },
+      {
+        "cmddirname": "volume unmount",
+        "access": "all"
+      },
+      {
+        "cmddirname": "vserver",
+        "access": "all"
+      },
+      {
+        "cmddirname": "vserver cifs create",
+        "access": "all"
+      },
+      {
+        "cmddirname": "vserver cifs delete",
+        "access": "all"
+      },
+      {
+        "cmddirname": "vserver cifs modify",
+        "access": "all"
+      },
+      {
+        "cmddirname": "vserver cifs share modify",
+        "access": "all"
+      },
+      {
+        "cmddirname": "vserver cifs share create",
+        "access": "all"
+      },
+      {
+        "cmddirname": "vserver cifs share delete",
+        "access": "all"
+      },
+      {
+        "cmddirname": "vserver cifs share modify",
+        "access": "all"
+      },
+      {
+        "cmddirname": "vserver cifs share show",
+        "access": "all"
+      },
+      {
+        "cmddirname": "vserver cifs show",
+        "access": "all"
+      },
+      {
+        "cmddirname": "vserver create",
+        "access": "all"
+      },
+      {
+        "cmddirname": "vserver export-policy create",
+        "access": "all"
+      },
+      {
+        "cmddirname": "vserver export-policy delete",
+        "access": "all"
+      },
+      {
+        "cmddirname": "vserver export-policy rule create",
+        "access": "all"
+      },
+      {
+        "cmddirname": "vserver export-policy rule delete",
+        "access": "all"
+      },
+      {
+        "cmddirname": "vserver export-policy rule modify",
+        "access": "all"
+      },
+      {
+        "cmddirname": "vserver export-policy rule show",
+        "access": "all"
+      },
+      {
+        "cmddirname": "vserver export-policy show",
+        "access": "all"
+      },
+      {
+        "cmddirname": "vserver iscsi connection show",
+        "access": "all"
+      },
+      {
+        "cmddirname": "vserver modify",
+        "access": "all"
+      },
+      {
+        "cmddirname": "vserver show",
+        "access": "all"
+      }
+  ]
+}
