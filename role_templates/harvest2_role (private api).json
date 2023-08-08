@@ -1,76 +1,76 @@
 {
-  "name": "harvest2_minpriv",
-  "privileges": [
+  "role": "harvest2_minpriv",
+  "entries": [
     {
-      "path": "DEFAULT",
+      "cmddirname": "DEFAULT",
       "access": "none"
     },
     {
-      "path": "cluster",
+      "cmddirname": "cluster",
       "access": "readonly"
     },
     {
-      "path": "lun",
+      "cmddirname": "lun",
       "access": "readonly"
     },
     {
-      "path": "snapmirror",
+      "cmddirname": "snapmirror",
       "access": "readonly"
     },
     {
-      "path": "statistics",
+      "cmddirname": "statistics",
       "access": "readonly"
     },
     {
-      "path": "storage aggregate",
+      "cmddirname": "storage aggregate",
       "access": "readonly"
     },
     {
-      "path": "storage disk",
+      "cmddirname": "storage disk",
       "access": "readonly"
     },
     {
-      "path": "storage shelf",
+      "cmddirname": "storage shelf",
       "access": "readonly"
     },
     {
-      "path": "system health status",
+      "cmddirname": "system health status",
       "access": "readonly"
     },
     {
-      "path": "system health subsystem show",
+      "cmddirname": "system health subsystem show",
       "access": "readonly"
     },
     {
-      "path": "system node",
+      "cmddirname": "system node",
       "access": "readonly"
     },
     {
-      "path": "version",
+      "cmddirname": "version",
       "access": "readonly"
     },
     {
-      "path": "volume",
+      "cmddirname": "volume",
       "access": "readonly"
     },
     {
-      "path": "network interface",
+      "cmddirname": "network interface",
       "access": "readonly"
     },
     {
-      "path": "security",
+      "cmddirname": "security",
       "access": "readonly"
     },
     {
-      "path": "storage encryption disk",
+      "cmddirname": "storage encryption disk",
       "access": "readonly"
     },
     {
-      "path": "vserver",
+      "cmddirname": "vserver",
       "access": "readonly"
     },
     {
-      "path": "qos workload show",
+      "cmddirname": "qos workload show",
       "access": "readonly"
     }
   ]
